@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #FFE0B2, #E1BEE7);
+}
+
+.heading {
+  font-size: 90px;
+  font-family: 'Great Vibes', cursive;
+}
+
+.categories {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.content2-wrapper {
+  position: relative;
+  padding: 80px;
+  border: 5px solid #8effa0;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 40vw;
+  height: auto;
+}
+
+.content2 {
+  border: 7px solid #8effa0;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 20px;
+  width: 30vw;
+  margin-left: 65px;
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.menu-container {
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+}
+
+.menu-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu-card {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menu-card h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+@media (max-width: 530px) {
+  .content2 {
+    position: relative;
+    padding: 5px;
+    right: 48px;
+    bottom: 40px;
+    margin-left: 0px;
+    width: 70vw;
+  }
+
+  .content2-wrapper {
+    height: auto;
+    width: 50vw;
+    margin-bottom: 10px;
+  }
+
+  .menu-card {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+@media (max-width: 530px) {
+    .menu-card {
+      width: 95%;
+      margin: 0 auto 20px;
+      padding: 20px;
+      text-align: center;
+    }
+  }
+  
+  
